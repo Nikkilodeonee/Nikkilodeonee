@@ -14,5 +14,5 @@ Also: [unit-testing-login](https://github.com/Nikkilodeonee/unit-testing-login) 
 
 ## Contact
 
-- LinkedIn: *www.linkedin.com/in/roman-sushkin-b5233035b*
-- Email: *romansushkinlo1@gmail.com*
+- [LinkedIn](https://www.linkedin.com/in/roman-sushkin-b5233035b)
+- [romansushkinlo1@gmail.com](mailto:romansushkinlo1@gmail.com)
