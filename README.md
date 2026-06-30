@@ -1,67 +1,137 @@
 # Nikkilodeonee
 
-Java backend development — layered Spring Boot services with REST APIs, JPA persistence, authentication, and automated testing.
+Welcome!
 
-Repositories here span production-style multi-module backends, security-focused APIs, and smaller work in unit testing, design patterns, and systems programming.
+This profile is where I document my progress as a Java backend developer. Most repositories here are built to explore real backend problems rather than isolated framework features.
 
-`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Docker` · `JUnit` · `Testcontainers`
+Instead of simple CRUD applications, I enjoy implementing business workflows, authentication and authorization, persistence, validation, scheduled jobs, and automated testing. Every larger project is an opportunity to learn another part of the backend ecosystem and make the codebase feel a little closer to something that could exist in production.
 
----
-
-## [vulntrack](https://github.com/Nikkilodeonee/vulntrack) — Vulnerability Remediation API
-
-[![Build and Test](https://github.com/Nikkilodeonee/vulntrack/actions/workflows/build.yml/badge.svg)](https://github.com/Nikkilodeonee/vulntrack/actions/workflows/build.yml)
-
-Spring Boot backend for managing security findings across company assets — asset inventory, scan imports, remediation workflows, and audit history. Domain modeled on AppSec triage after vulnerability scans.
-
-| | |
-| :-- | :-- |
-| **Architecture** | Multi-module Maven — `api` · `persistence` · `service` · `web` |
-| **Security** | JWT authentication, RBAC — Admin · Security Analyst · Engineer · Viewer |
-| **Domain** | Finding state machine, comments, accepted-risk handling, business-rule validation |
-| **Risk & SLA** | CVSS × asset criticality scoring, SLA deadlines, hourly overdue escalation job |
-| **Ops & quality** | PostgreSQL, Flyway, Docker Compose, OpenAPI, MockMvc + Testcontainers |
-
-`Java 17` · `Spring Boot 3` · `Spring Security` · `JWT` · `PostgreSQL` · `Flyway` · `OpenAPI` · `Testcontainers` · `GitHub Actions`
+My current stack revolves around Java, Spring Boot, PostgreSQL, Spring Security, Docker, and automated testing, with a particular interest in backend architecture and security-oriented applications.
 
 ---
 
-## [spring-mvc-food-delivery](https://github.com/Nikkilodeonee/spring-mvc-food-delivery) — Food Ordering REST API
+## Featured Projects
 
-[![Build and Test](https://github.com/Nikkilodeonee/spring-mvc-food-delivery/actions/workflows/build.yml/badge.svg)](https://github.com/Nikkilodeonee/spring-mvc-food-delivery/actions/workflows/build.yml)
+### 🔒 VulnTrack — Vulnerability Remediation API
 
-Multi-module backend for food browsing, cart management, and order placement — secured REST endpoints, transactional persistence, and production-style infrastructure.
+My flagship project.
 
-| | |
-| :-- | :-- |
-| **Architecture** | `api` · `persistence` · `service` · `web` with OpenAPI-generated DTOs |
-| **API & persistence** | JPA entities and repositories, transactional order and balance logic |
-| **Reliability** | Request validation, centralized JSON error handling, optimistic locking on balances |
-| **Ops & quality** | PostgreSQL, Flyway, Docker Compose, MockMvc + Testcontainers |
+VulnTrack is an AppSec-inspired backend for managing vulnerabilities discovered during security scans. It models the lifecycle of security findings across company assets—from import and triage to remediation, risk acceptance, and audit history.
 
-`Java 17` · `Spring Boot 3` · `Spring Security` · `JPA` · `PostgreSQL` · `Flyway` · `OpenAPI` · `Testcontainers` · `GitHub Actions`
+The project was an opportunity to work on more than REST endpoints. I wanted a backend with meaningful business rules, multiple user roles, state transitions, scheduled jobs, and realistic domain logic.
+
+Highlights:
+
+- Multi-module Spring Boot architecture
+- JWT authentication and role-based access control
+- Finding workflow with business-rule validation
+- CVSS-based risk scoring and SLA management
+- PostgreSQL with Flyway migrations
+- Docker Compose development environment
+- OpenAPI documentation
+- Integration tests using MockMvc and Testcontainers
+- GitHub Actions CI
+
+**Repository:** https://github.com/Nikkilodeonee/vulntrack
 
 ---
 
-## More repositories
+### 🍔 Food Delivery REST API
 
-### Backends
+Originally developed during Java backend training and later expanded independently.
 
-| Repository | Summary |
-| :-- | :-- |
-| [**spring-mvc-todo-rest**](https://github.com/Nikkilodeonee/spring-mvc-todo-rest) | REST todo API — CRUD, in-memory storage, validation, structured error responses |
+The project models a typical ordering system with menus, carts, balances, and order placement. I used it to practice layered architecture, transactional service logic, persistence, security, database migrations, and testing.
 
-### Testing & patterns
+Highlights:
 
-| Repository | Summary |
-| :-- | :-- |
-| [**unit-testing-login**](https://github.com/Nikkilodeonee/unit-testing-login) | Console auth service with account lockout — JUnit 5 and Mockito covering success, failure, and lockout paths |
-| [**design-patterns-smart-home**](https://github.com/Nikkilodeonee/design-patterns-smart-home) | Smart home simulator — Strategy, Observer, Mediator, Factory, Command, Builder, Adapter |
+- Multi-module architecture
+- Spring Security
+- JPA/Hibernate
+- PostgreSQL + Flyway
+- OpenAPI-generated DTOs
+- Docker Compose
+- Integration tests with MockMvc and Testcontainers
+- GitHub Actions
 
-### Systems & simulation
+**Repository:** https://github.com/Nikkilodeonee/spring-mvc-food-delivery
 
-| Repository | Summary |
-| :-- | :-- |
-| [**page-replacement-algorithms**](https://github.com/Nikkilodeonee/page-replacement-algorithms) | OS memory management — FIFO, LRU, and optimal page replacement |
-| [**os-scheduling-simulator**](https://github.com/Nikkilodeonee/os-scheduling-simulator) | CPU scheduling algorithms simulator |
-| [**cats-and-mice**](https://github.com/Nikkilodeonee/cats-and-mice) | Agent-based simulation |
+---
+
+## Other Projects
+
+### Backend
+
+### spring-mvc-todo-rest
+
+A smaller REST API focused on clean controller design, validation, exception handling, and CRUD operations. Built to reinforce Spring MVC fundamentals.
+
+---
+
+### Testing
+
+### unit-testing-login
+
+A console authentication service created specifically to practice unit testing.
+
+The project covers login scenarios, failed authentication attempts, account lockout rules, and mocking with JUnit 5 and Mockito.
+
+---
+
+### Design Patterns
+
+### design-patterns-smart-home
+
+A collection of classic object-oriented design patterns implemented in a shared smart home simulation.
+
+Patterns include Strategy, Observer, Factory, Builder, Adapter, Mediator, Command, and others.
+
+---
+
+### Computer Science
+
+These repositories come from university coursework and personal experiments.
+
+- Page replacement algorithms (FIFO, LRU, Optimal)
+- CPU scheduling simulator
+- Cats and Mice agent simulation
+
+---
+
+## Technologies
+
+**Language**
+
+- Java 17
+
+**Backend**
+
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- REST APIs
+
+**Database**
+
+- PostgreSQL
+- H2
+- Flyway
+
+**Testing**
+
+- JUnit 5
+- Mockito
+- MockMvc
+- Testcontainers
+
+**Tools**
+
+- Maven
+- Docker
+- GitHub Actions
+- Git
+
+---
+
+Thanks for stopping by. If you're interested in any of the projects or have feedback, feel free to open an issue or get in touch.
