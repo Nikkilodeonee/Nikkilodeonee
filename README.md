@@ -1,3 +1,13 @@
+# Roman Sushkin
+
+Java backend development — layered Spring Boot services with REST APIs, JPA persistence, authentication, and automated testing.
+
+Repositories here span production-style multi-module backends, security-focused APIs, and smaller work in unit testing, design patterns, and systems programming.
+
+`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Docker` · `JUnit` · `Testcontainers`
+
+---
+
 ## [vulntrack](https://github.com/Nikkilodeonee/vulntrack) — Vulnerability Remediation API
 
 [![Build and Test](https://github.com/Nikkilodeonee/vulntrack/actions/workflows/build.yml/badge.svg)](https://github.com/Nikkilodeonee/vulntrack/actions/workflows/build.yml)
