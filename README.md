@@ -1,4 +1,4 @@
-# Roman Sushkin
+# Nikkilodeonee
 
 Java backend development — layered Spring Boot services with REST APIs, JPA persistence, authentication, and automated testing.
 
