@@ -32,28 +32,28 @@ Layered Spring Boot backends — REST APIs, JPA, Spring Security, Flyway, Docker
 
 #### Backend
 
-| | Repository | Summary |
-|:---:|---|---|
-| | [**vulntrack**](https://github.com/Nikkilodeonee/vulntrack) | AppSec vulnerability triage API — JWT/RBAC, CVSS risk scoring, remediation workflows, SLA escalation, audit history |
-| | [**spring-mvc-food-delivery**](https://github.com/Nikkilodeonee/spring-mvc-food-delivery) | Multi-module food ordering API — secured REST endpoints, JPA, OpenAPI, optimistic locking, BCrypt auth |
-| | [**spring-mvc-todo-rest**](https://github.com/Nikkilodeonee/spring-mvc-todo-rest) | RESTful task management with CRUD, in-memory storage, and structured error responses |
+| Repository | Summary |
+|---|---|
+| [**vulntrack**](https://github.com/Nikkilodeonee/vulntrack) | AppSec vulnerability triage API — JWT/RBAC, CVSS risk scoring, remediation workflows, SLA escalation, audit history |
+| [**spring-mvc-food-delivery**](https://github.com/Nikkilodeonee/spring-mvc-food-delivery) | Multi-module food ordering API — secured REST endpoints, JPA, OpenAPI, optimistic locking, BCrypt auth |
+| [**spring-mvc-todo-rest**](https://github.com/Nikkilodeonee/spring-mvc-todo-rest) | RESTful task management with CRUD, in-memory storage, and structured error responses |
 
 `Java 17–21` · `Spring Boot` · `Spring Security` · `JPA` · `PostgreSQL` · `Flyway` · `OpenAPI` · `Testcontainers` · `GitHub Actions`
 
 #### Testing & patterns
 
-| | Repository | Summary |
-|:---:|---|---|
-| | [**unit-testing-login**](https://github.com/Nikkilodeonee/unit-testing-login) | Console auth service with account lockout — JUnit 5 and Mockito covering success, failure, and lockout paths |
-| | [**design-patterns-smart-home**](https://github.com/Nikkilodeonee/design-patterns-smart-home) | Smart home simulator — Strategy, Observer, Mediator, Factory, Command, Builder, Adapter |
+| Repository | Summary |
+|---|---|
+| [**unit-testing-login**](https://github.com/Nikkilodeonee/unit-testing-login) | Console auth service with account lockout — JUnit 5 and Mockito covering success, failure, and lockout paths |
+| [**design-patterns-smart-home**](https://github.com/Nikkilodeonee/design-patterns-smart-home) | Smart home simulator — Strategy, Observer, Mediator, Factory, Command, Builder, Adapter |
 
 #### Other
 
-| | Repository | Summary |
-|:---:|---|---|
-| | [**page-replacement-algorithms**](https://github.com/Nikkilodeonee/page-replacement-algorithms) | OS memory management — FIFO, LRU, and optimal page replacement |
-| | [**os-scheduling-simulator**](https://github.com/Nikkilodeonee/os-scheduling-simulator) | CPU scheduling algorithms simulator |
-| | [**cats-and-mice**](https://github.com/Nikkilodeonee/cats-and-mice) | Agent-based simulation |
+| Repository | Summary |
+|---|---|
+| [**page-replacement-algorithms**](https://github.com/Nikkilodeonee/page-replacement-algorithms) | OS memory management — FIFO, LRU, and optimal page replacement |
+| [**os-scheduling-simulator**](https://github.com/Nikkilodeonee/os-scheduling-simulator) | CPU scheduling algorithms simulator |
+| [**cats-and-mice**](https://github.com/Nikkilodeonee/cats-and-mice) | Agent-based simulation |
 
 ---
 
