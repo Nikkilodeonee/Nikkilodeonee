@@ -1,8 +1,8 @@
-# Nikkilodeonee
+# Roman Sushkin
 
-Backend repositories built with Java and Spring Boot. Most projects here explore real backend problems — business workflows, authentication, persistence, validation, scheduled jobs, and testing — rather than isolated framework demos.
+Junior Java backend developer. Building Spring Boot APIs with real domain logic — auth, workflows, persistence, testing — not just CRUD demos.
 
-Every larger repo is a step toward production-shaped code: multi-module layout, PostgreSQL, Flyway, Docker, and CI-tested integrations. Particular interest in backend architecture and security-oriented applications.
+Open to internships and junior Java / backend roles (Wrocław · remote / hybrid).
 
 `Java 17` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Docker` · `JUnit` · `Testcontainers`
 
@@ -57,14 +57,6 @@ Multi-module ordering backend — menus, carts, balances, and order placement. L
 | :-- | :-- |
 | [**unit-testing-login**](https://github.com/Nikkilodeonee/unit-testing-login) | Console auth with account lockout — JUnit 5 and Mockito covering success, failure, and lockout paths |
 | [**design-patterns-smart-home**](https://github.com/Nikkilodeonee/design-patterns-smart-home) | Smart home simulator — Strategy, Observer, Mediator, Factory, Command, Builder, Adapter |
-
-### Systems & simulation
-
-| Repository | Summary |
-| :-- | :-- |
-| [**page-replacement-algorithms**](https://github.com/Nikkilodeonee/page-replacement-algorithms) | OS memory management — FIFO, LRU, and optimal page replacement |
-| [**os-scheduling-simulator**](https://github.com/Nikkilodeonee/os-scheduling-simulator) | CPU scheduling algorithms simulator |
-| [**cats-and-mice**](https://github.com/Nikkilodeonee/cats-and-mice) | Agent-based simulation |
 
 ---
 
