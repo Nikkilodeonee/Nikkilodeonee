@@ -2,7 +2,7 @@
 
 Junior Java backend developer. Building Spring Boot APIs with real domain logic — auth, workflows, persistence, testing — not just CRUD demos.
 
-Open to internships and junior Java / backend roles (Wrocław · remote / hybrid).
+Open to internships and junior Java / backend roles (Wrocław · remote / hybrid). **Available immediately.**
 
 `Java 17` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Docker` · `JUnit` · `Testcontainers`
 
@@ -32,7 +32,7 @@ Built around meaningful domain logic — multiple user roles, state transitions,
 
 [![Build and Test](https://github.com/Nikkilodeonee/spring-mvc-food-delivery/actions/workflows/build.yml/badge.svg)](https://github.com/Nikkilodeonee/spring-mvc-food-delivery/actions/workflows/build.yml)
 
-Multi-module ordering backend — menus, carts, balances, and order placement. Layered architecture with secured REST endpoints, transactional persistence, database migrations, and integration testing.
+**EPAM training project, extended independently.** Multi-module ordering backend — menus, order placement from a cart payload, and balances. Layered architecture with secured REST endpoints, transactional persistence, database migrations, and integration testing.
 
 | | |
 | :-- | :-- |
@@ -64,12 +64,17 @@ Multi-module ordering backend — menus, carts, balances, and order placement. L
 
 | | |
 | :-- | :-- |
-| **Language** | Java 17 |
+| **Language** | Java 17 (Spring projects) · Java 21 (smaller apps) |
 | **Backend** | Spring Boot · Spring MVC · Spring Security · Spring Data JPA · REST |
 | **Database** | PostgreSQL · H2 · Flyway |
 | **Testing** | JUnit 5 · Mockito · MockMvc · Testcontainers |
 | **Tools** | Maven · Docker · GitHub Actions · Git |
 
 ---
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/roman-sushkin-b5233035b)
+- [romansushkinlo1@gmail.com](mailto:romansushkinlo1@gmail.com)
 
 Feedback and issues are welcome on any repository.
